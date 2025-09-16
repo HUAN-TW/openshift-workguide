@@ -35,6 +35,12 @@ tar -zxvf mirror-registry-amd64.tar.gz
 ./mirror-registry install
 ```
 
+自訂quay fqdn
+```
+./mirror-registry install --quayHostname <host_example_com> 
+```
+Ref: https://docs.redhat.com/en/documentation/openshift_container_platform/4.15/html/disconnected_installation_mirroring/installing-mirroring-creating-registry
+
 裝完後會得到如下的資訊,提供credentials  
 ```
 INFO[2025-04-09 20:55:58] Quay installed successfully, config data is stored in ~/quay-install
